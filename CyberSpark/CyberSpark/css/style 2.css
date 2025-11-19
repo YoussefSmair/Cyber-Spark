@@ -1,0 +1,215 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #343a40 !important;
+    border-radius: 0px 0px 70px 70px;
+  }
+  
+  .navbar .navbar-brand {
+    background: linear-gradient(0deg, #015bbb, #00e5ff,navy); /* هنا بتغير الألوان */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+
+  .navbar .navbar-brand:hover{
+    background: linear-gradient(30deg, #015bbb, #00e5ff,navy); /* هنا بتغير الألوان */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  
+  .navbar .nav-link {
+    color: #f1f1f1 !important;
+    transition: 0.3s;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #00bcd4 !important;
+  }
+
+
+/* ثلاث شرط*/
+
+  .navbar-toggler{
+    background-color: #fff;
+    margin-left: 20px;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.625);
+    transition: 0.5s;
+     }
+    
+
+ .navbar-collapse{
+  transition: 1s;
+
+
+}
+
+
+
+
+
+
+
+
+
+  
+  /* Layout */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+  }
+  
+  #leftsec {
+    flex: 1;
+    min-width: 300px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.625);
+    text-align: right;
+  }
+  
+  #RIGHTSEC {
+
+    padding: 20px;
+    background-color: #ededed;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.625);
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Typography */
+  h1{
+font-size: 60px;
+font-style: italic;
+font-weight: 600;
+text-align: left;
+margin-bottom: 60px;
+padding: 10px;
+width: 100%;
+text-shadow: 0px 0px 40px #ffffff00;
+
+  }
+  .gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(0deg, #015bbb, #00e5ff,navy); /* هنا بتغير الألوان */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .gradient-text2 {
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(10deg, #015bbb, #00e5ff,navy); /* هنا بتغير الألوان */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+  h2, h3 {
+    color: #007bff;
+    color: #0077df;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align:right;
+  }
+  p{
+font-size: 25px;
+
+
+
+  }
+  ul {
+    padding-right: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  
+  /* Video */
+  video {
+
+    border-radius: 10px;
+    margin-top: 15px;
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+  .myVideo {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px; /* مسافة من المحتوى */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8">
+  <title>اتصل بـ مصممي RCC</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style 4.css" rel="stylesheet" type="text/css">
+  <link href="php/index.php" rel="php" type="text/php">
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">CyberSpark</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="leftsec">
+      <form action="php/submit_and_display.php" method="POST">
+        <h3>إضافة بيانات جديدة</h3>
+
+        <label>اسم الموظف:</label>
+        <input type="text" name="employee_name" required><br><br>
+
+        <label>اسم العميل:</label>
+        <input type="text" name="client_name" required><br><br>
+
+        <label>اسم المشروع:</label>
+        <input type="text" name="project_name" required><br><br>
+
+        <label>المهام:</label>
+        <input type="text" name="task_details" required><br><br>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+
+
+  </main>
+
+  <script src="js/jquery-3.6.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
